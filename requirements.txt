@@ -1,0 +1,15 @@
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+statsmodels>=0.14
+xgboost>=2.0
+torch>=2.2
+keras>=3.3
+fastai>=2.7.15
+pytorch-tabnet>=4.1
+lightning>=2.2
+jupyter
+# lightning-flash is NOT listed: it is archived (last release 0.8.2, 2023) and installing it
+# downgrades pytorch-lightning/torchmetrics to versions that fail to import. See 02_models.ipynb, section 10.
