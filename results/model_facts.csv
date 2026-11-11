@@ -1,0 +1,6 @@
+,train_time_s,trainable_params,trees,built_in_importance
+XGBoost,3.5616705417633057,,966.0,yes (gain)
+Keras,12.335014581680298,5187.0,,no
+fastai,6.941781759262085,5375.0,,no
+TabNet,14.541554689407349,26140.0,,yes (attention masks)
+PyTorch Lightning,4.967850685119629,5187.0,,no
